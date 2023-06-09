@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Playstation 4",
+    "price": "R$1500"
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/b3ff8538-1be0-4e2c-8967-bfb9525d3456
+
+###
+
+PUT http://localhost:4002/products/8713e701-4735-499b-a98e-33ad08223da6
+content-type: application/json
+
+{
+    "name": "TV LCD",
+    "price": "R$1600"
+}
+
+###
+
+DELETE http://localhost:4002/products/db1d2bce-c291-4f4a-bf24-cb7460b1d06e
